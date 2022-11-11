@@ -3,7 +3,7 @@ package com.example.thread;
 import android.widget.TextView;
 
 public class CountDownThread implements Runnable {
-    TextView tvNumber, tvEndNumber;
+    private TextView tvNumber, tvEndNumber;
     private static MainActivity mMainActivity;
 
     public CountDownThread(TextView tvNumber, TextView tvEndNumber, MainActivity mainActivity) {
